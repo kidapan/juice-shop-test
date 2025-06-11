@@ -1,0 +1,14 @@
+
+ ERROR   Unspecified Error (SNYK-CLI-0000)
+         The encountered error only provides basic information, please take a look at   
+         the given details.If they do not help to resolve the issue, consider debugging 
+         or consulting support.                                                         
+                                                                                        
+           The format provided (spdx2.3+xml) is not one of the available formats.       
+           Available formats are: cyclonedx1.4+json, cyclonedx1.4+xml,                  
+           cyclonedx1.5+json, cyclonedx1.5+xml, cyclonedx1.6+json, cyclonedx1.6+xml,    
+           spdx2.3+json                                                                 
+
+Docs:    https://docs.snyk.io/scan-with-snyk/error-catalog#snyk-cli-0000 
+                                                                         
+ID:      urn:snyk:interaction:04568c4b-e600-4d57-8211-98c54c0ff4ac 
