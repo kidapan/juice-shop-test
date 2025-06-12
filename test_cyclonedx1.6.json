@@ -1,0 +1,430 @@
+
+Testing ./cyclonedx1.6.json
+
+
+Open issues:
+
+× [LOW] Prototype Pollution
+  Introduced through: pkg:npm/minimist@0.2.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-MINIMIST-2429795
+
+× [LOW] Cross-site Scripting
+  Introduced through: pkg:npm/send@0.17.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SEND-7926862
+
+× [LOW] Cross-site Scripting
+  Introduced through: pkg:npm/serve-static@1.14.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SERVESTATIC-7926865
+
+× [LOW] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/tar@2.2.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-TAR-1536758
+
+× [LOW] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/word-wrap@1.2.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-WORDWRAP-3149973
+
+× [LOW] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/debug@4.1.1
+  URL: https://security.snyk.io/vuln/npm:debug:20170905
+
+× [LOW] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/moment@2.0.0
+  URL: https://security.snyk.io/vuln/npm:moment:20170905
+
+× [MEDIUM] Cross-site Scripting (XSS)
+  Introduced through: pkg:npm/cookie@0.4.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-COOKIE-8163060
+
+× [MEDIUM] Arbitrary File Write via Archive Extraction (Zip Slip)
+  Introduced through: pkg:npm/decompress-tar@4.1.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-DECOMPRESSTAR-559095
+
+× [MEDIUM] Prototype Pollution
+  Introduced through: pkg:npm/eivindfjeldstad-dot@0.0.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-EIVINDFJELDSTADDOT-564434
+
+× [MEDIUM] Open Redirect
+  Introduced through: pkg:npm/express@4.17.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-EXPRESS-6474509
+
+× [MEDIUM] Cross-site Scripting
+  Introduced through: pkg:npm/express@4.17.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-EXPRESS-7926867
+
+× [MEDIUM] Open Redirect
+  Introduced through: pkg:npm/got@8.3.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-GOT-2932019
+
+× [MEDIUM] Directory Traversal
+  Introduced through: pkg:npm/grunt@1.4.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-GRUNT-2635969
+
+× [MEDIUM] Race Condition
+  Introduced through: pkg:npm/grunt@1.4.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-GRUNT-2813632
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/http-cache-semantics@3.8.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-HTTPCACHESEMANTICS-3248783
+
+× [MEDIUM] Missing Release of Resource after Effective Lifetime
+  Introduced through: pkg:npm/inflight@1.0.6
+  URL: https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116
+
+× [MEDIUM] Prototype Pollution
+  Introduced through: pkg:npm/json5@2.2.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-JSON5-3182856
+
+× [MEDIUM] Improper Authentication
+  Introduced through: pkg:npm/jsonwebtoken@0.1.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-JSONWEBTOKEN-3180022
+
+× [MEDIUM] Improper Restriction of Security Token Assignment
+  Introduced through: pkg:npm/jsonwebtoken@0.1.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-JSONWEBTOKEN-3180024
+
+× [MEDIUM] Use of a Broken or Risky Cryptographic Algorithm
+  Introduced through: pkg:npm/jsonwebtoken@0.1.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-JSONWEBTOKEN-3180026
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASH-1018905
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASH-73639
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/minimatch@3.0.4
+  URL: https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-3050818
+
+× [MEDIUM] Information Exposure
+  Introduced through: pkg:npm/node-fetch@2.6.6
+  URL: https://security.snyk.io/vuln/SNYK-JS-NODEFETCH-2342118
+
+× [MEDIUM] Sandbox Bypass
+  Introduced through: pkg:npm/notevil@1.3.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-NOTEVIL-2385946
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/path-to-regexp@0.1.7
+  URL: https://security.snyk.io/vuln/SNYK-JS-PATHTOREGEXP-7925106
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/path-to-regexp@0.1.7
+  URL: https://security.snyk.io/vuln/SNYK-JS-PATHTOREGEXP-8482416
+
+× [MEDIUM] Server-side Request Forgery (SSRF)
+  Introduced through: pkg:npm/request@2.88.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-REQUEST-3361831
+
+× [MEDIUM] Validation Bypass
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SANITIZEHTML-1070780
+
+× [MEDIUM] Access Restriction Bypass
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SANITIZEHTML-1070786
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SANITIZEHTML-2957526
+
+× [MEDIUM] Information Exposure
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SANITIZEHTML-6256334
+
+× [MEDIUM] Information Exposure
+  Introduced through: pkg:npm/sequelize@5.22.5
+  URL: https://security.snyk.io/vuln/SNYK-JS-SEQUELIZE-3324089
+
+× [MEDIUM] Access of Resource Using Incompatible Type ('Type Confusion')
+  Introduced through: pkg:npm/sequelize@5.22.5
+  URL: https://security.snyk.io/vuln/SNYK-JS-SEQUELIZE-3324090
+
+× [MEDIUM] Uncontrolled Resource Consumption ('Resource Exhaustion')
+  Introduced through: pkg:npm/tar@2.2.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-TAR-6476909
+
+× [MEDIUM] Prototype Pollution
+  Introduced through: pkg:npm/tough-cookie@2.5.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-TOUGHCOOKIE-5672873
+
+× [MEDIUM] Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-5537079
+
+× [MEDIUM] Prototype Pollution
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/npm:lodash:20180130
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/moment@2.0.0
+  URL: https://security.snyk.io/vuln/npm:moment:20160126
+
+× [MEDIUM] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/moment@2.0.0
+  URL: https://security.snyk.io/vuln/npm:moment:20161019
+
+× [MEDIUM] Cross-site Scripting (XSS)
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/npm:sanitize-html:20141024
+
+× [MEDIUM] Cross-site Scripting (XSS)
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/npm:sanitize-html:20160801
+
+× [MEDIUM] Cross-site Scripting (XSS)
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/npm:sanitize-html:20161026
+
+× [HIGH] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/ansi-regex@2.1.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/async@2.6.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-ASYNC-2441827
+
+× [HIGH] Asymmetric Resource Consumption (Amplification)
+  Introduced through: pkg:npm/body-parser@1.19.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-7926860
+
+× [HIGH] Uncontrolled resource consumption
+  Introduced through: pkg:npm/braces@2.3.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727
+
+× [HIGH] Use of Weak Hash
+  Introduced through: pkg:npm/crypto-js@3.3.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-CRYPTOJS-6028119
+
+× [HIGH] Denial of Service (DoS)
+  Introduced through: pkg:npm/decode-uri-component@0.2.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-DECODEURICOMPONENT-3149970
+
+× [HIGH] Denial of Service (DoS)
+  Introduced through: pkg:npm/dicer@0.2.5
+  URL: https://security.snyk.io/vuln/SNYK-JS-DICER-2311764
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/dottie@2.0.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-DOTTIE-3332763
+
+× [HIGH] Denial of Service (DoS)
+  Introduced through: pkg:npm/engine.io@3.5.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-ENGINEIO-1056749
+
+× [HIGH] Denial of Service (DoS)
+  Introduced through: pkg:npm/engine.io@3.5.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-ENGINEIO-3136336
+
+× [HIGH] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/es5-ext@0.10.53
+  URL: https://security.snyk.io/vuln/SNYK-JS-ES5EXT-6095076
+
+× [HIGH] Authorization Bypass
+  Introduced through: pkg:npm/express-jwt@0.1.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-EXPRESSJWT-575022
+
+× [HIGH] Type Confusion
+  Introduced through: pkg:npm/libxmljs2@0.26.7
+  URL: https://security.snyk.io/vuln/SNYK-JS-LIBXMLJS2-6808810
+
+× [HIGH] Type Confusion
+  Introduced through: pkg:npm/libxmljs2@0.26.7
+  URL: https://security.snyk.io/vuln/SNYK-JS-LIBXMLJS2-6808816
+
+× [HIGH] Code Injection
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASH-1040724
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASH-450202
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASH-608086
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASH-6139239
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/lodash@2.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASH-73638
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/lodash.set@4.3.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-LODASHSET-1320032
+
+× [HIGH] Inefficient Regular Expression Complexity
+  Introduced through: pkg:npm/micromatch@3.1.10
+  URL: https://security.snyk.io/vuln/SNYK-JS-MICROMATCH-6838728
+
+× [HIGH] Directory Traversal
+  Introduced through: pkg:npm/moment@2.0.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-MOMENT-2440688
+
+× [HIGH] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/moment@2.29.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-MOMENT-2944238
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/mout@1.2.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-MOUT-2342654
+
+× [HIGH] Improper Control of Generation of Code ('Code Injection')
+  Introduced through: pkg:npm/pug-code-gen@3.0.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-PUGCODEGEN-7086056
+
+× [HIGH] Prototype Poisoning
+  Introduced through: pkg:npm/qs@6.9.6
+  URL: https://security.snyk.io/vuln/SNYK-JS-QS-3153490
+
+× [HIGH] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/semver@5.3.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795
+
+× [HIGH] SQL Injection
+  Introduced through: pkg:npm/sequelize@5.22.5
+  URL: https://security.snyk.io/vuln/SNYK-JS-SEQUELIZE-2959225
+
+× [HIGH] Improper Filtering of Special Elements
+  Introduced through: pkg:npm/sequelize@5.22.5
+  URL: https://security.snyk.io/vuln/SNYK-JS-SEQUELIZE-3324088
+
+× [HIGH] Information Exposure
+  Introduced through: pkg:npm/simple-get@3.1.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-SIMPLEGET-2361683
+
+× [HIGH] Uncaught Exception
+  Introduced through: pkg:npm/socket.io@2.4.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-SOCKETIO-7278048
+
+× [HIGH] Denial of Service (DoS)
+  Introduced through: pkg:npm/socket.io-parser@3.4.1
+  URL: https://security.snyk.io/vuln/SNYK-JS-SOCKETIOPARSER-5596892
+
+× [HIGH] Denial of Service (DoS)
+  Introduced through: pkg:npm/sqlite3@5.0.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SQLITE3-2388645
+
+× [HIGH] Arbitrary Code Execution
+  Introduced through: pkg:npm/sqlite3@5.0.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SQLITE3-3358947
+
+× [HIGH] Arbitrary File Overwrite
+  Introduced through: pkg:npm/tar@2.2.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-TAR-1536528
+
+× [HIGH] Arbitrary File Overwrite
+  Introduced through: pkg:npm/tar@2.2.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-TAR-1536531
+
+× [HIGH] Arbitrary File Write
+  Introduced through: pkg:npm/tar@2.2.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-TAR-1579147
+
+× [HIGH] Arbitrary File Write
+  Introduced through: pkg:npm/tar@2.2.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-TAR-1579152
+
+× [HIGH] Arbitrary File Write
+  Introduced through: pkg:npm/tar@2.2.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-TAR-1579155
+
+× [HIGH] Prototype Pollution
+  Introduced through: pkg:npm/unset-value@1.0.0
+  URL: https://security.snyk.io/vuln/SNYK-JS-UNSETVALUE-2400660
+
+× [HIGH] Denial of Service (DoS)
+  Introduced through: pkg:npm/ws@7.4.6
+  URL: https://security.snyk.io/vuln/SNYK-JS-WS-7266574
+
+× [HIGH] Uninitialized Memory Exposure
+  Introduced through: pkg:npm/base64url@0.0.6
+  URL: https://security.snyk.io/vuln/npm:base64url:20180511
+
+× [HIGH] Authentication Bypass
+  Introduced through: pkg:npm/jsonwebtoken@0.1.0
+  URL: https://security.snyk.io/vuln/npm:jsonwebtoken:20150331
+
+× [HIGH] Forgeable Public/Private Tokens
+  Introduced through: pkg:npm/jws@0.2.6
+  URL: https://security.snyk.io/vuln/npm:jws:20160726
+
+× [HIGH] Regular Expression Denial of Service (ReDoS)
+  Introduced through: pkg:npm/underscore.string@3.3.5
+  URL: https://security.snyk.io/vuln/npm:underscore.string:20170908
+
+× [HIGH] GPL-2.0 license
+  Introduced through: pkg:npm/fuzzball@1.4.0
+  URL: https://security.snyk.io/vuln/snyk:lic:npm:fuzzball:GPL-2.0
+
+× [CRITICAL] Arbitrary Code Injection
+  Introduced through: pkg:npm/marsdb@0.6.11
+  URL: https://security.snyk.io/vuln/SNYK-JS-MARSDB-480405
+
+× [CRITICAL] Arbitrary Code Execution
+  Introduced through: pkg:npm/sanitize-html@1.4.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SANITIZEHTML-585892
+
+× [CRITICAL] SQL Injection
+  Introduced through: pkg:npm/sequelize@5.22.5
+  URL: https://security.snyk.io/vuln/SNYK-JS-SEQUELIZE-2932027
+
+× [CRITICAL] Improper Input Validation
+  Introduced through: pkg:npm/socket.io-parser@3.3.2
+  URL: https://security.snyk.io/vuln/SNYK-JS-SOCKETIOPARSER-3091012
+
+× [CRITICAL] Sandbox Bypass
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-1585918
+
+× [CRITICAL] Sandbox Bypass
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-2309905
+
+× [CRITICAL] Arbitrary Code Execution
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-2990237
+
+× [CRITICAL] Sandbox Bypass
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-3018201
+
+× [CRITICAL] Sandbox Escape
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-5415299
+
+× [CRITICAL] Sandbox Escape
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-5422057
+
+× [CRITICAL] Improper Handling of Exceptional Conditions
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-5426093
+
+× [CRITICAL] Sandbox Bypass
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-5537100
+
+× [CRITICAL] Remote Code Execution (RCE)
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-5772823
+
+× [CRITICAL] Remote Code Execution (RCE)
+  Introduced through: pkg:npm/vm2@3.9.3
+  URL: https://security.snyk.io/vuln/SNYK-JS-VM2-5772825
+
+╭───────────────────────────────────╮
+│  Test summary                                                         │
+│    Organization:    e06302c4-289e-48c8-b047-4e8ffa4625ec              │
+│    Test type:       Software Bill of Materials                        │
+│    Path:            ./cyclonedx1.6.json                               │
+│                                                                       │
+│    Open issues:     104 [ 14 CRITICAL  46 HIGH  37 MEDIUM  7 LOW ]    │
+╰───────────────────────────────────╯

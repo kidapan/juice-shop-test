@@ -1,0 +1,146 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:c0cb30ae-67c2-4144-96ce-d42190c02bfd",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2025-06-11T10:11:01Z",
+      "tools": {
+        "components": [
+          {
+            "type": "application",
+            "author": "Snyk",
+            "name": "snyk-cli",
+            "version": "1.1296.2"
+          }
+        ],
+        "services": [
+          {
+            "provider": {
+              "name": "Snyk"
+            },
+            "name": "SBOM Export API",
+            "version": "v1.111.1"
+          }
+        ]
+      },
+      "component": {
+        "bom-ref": "1-juice-shop@12.3.0",
+        "type": "application",
+        "name": "juice-shop",
+        "version": "12.3.0",
+        "purl": "pkg:npm/juice-shop@12.3.0"
+      }
+    },
+    "components": [
+      {
+        "bom-ref": "2-body-parser@1.19.1",
+        "type": "library",
+        "name": "body-parser",
+        "version": "1.19.1",
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "purl": "pkg:npm/body-parser@1.19.1"
+      },
+      {
+        "bom-ref": "3-bytes@3.1.1",
+        "type": "library",
+        "name": "bytes",
+        "version": "3.1.1",
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "purl": "pkg:npm/bytes@3.1.1"
+      },
+      {
+        "bom-ref": "4-content-type@1.0.4",
+        "type": "library",
+        "name": "content-type",
+        "version": "1.0.4",
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "purl": "pkg:npm/content-type@1.0.4"
+      },
+      {
+        "bom-ref": "5-debug@2.6.9",
+        "type": "library",
+        "name": "debug",
+        "version": "2.6.9",
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "purl": "pkg:npm/debug@2.6.9"
+      },
+      {
+        "bom-ref": "6-ms@2.0.0",
+        "type": "library",
+        "name": "ms",
+        "version": "2.0.0",
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "purl": "pkg:npm/ms@2.0.0"
+      },
+      {
+        "bom-ref": "7-depd@1.1.2",
+        "type": "library",
+        "name": "depd",
+        "version": "1.1.2",
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "purl": "pkg:npm/depd@1.1.2"
+      },
+      {
+        "bom-ref": "8-http-errors@1.8.1",
+        "type": "library",
+        "name": "http-errors",
+        "version": "1.8.1",
+        "licenses": [
+          {
+            "expression": "MIT"
+          }
+        ],
+        "purl": "pkg:npm/http-errors@1.8.1"
+      },
+      {
+        "bom-ref": "9-inherits@2.0.4",
+        "type": "library",
+        "name": "inherits",
+        "version": "2.0.4",
+        "licenses": [
+          {
+            "expression": "ISC"
+          }
+        ],
+        "purl": "pkg:npm/inherits@2.0.4"
+      },
+      {
+        "bom-ref": "10-setprototypeof@1.2.0",
+        "type": "library",
+        "name": "setprototypeof",
+        "version": "1.2.0",
+        "licenses": [
+          {
+            "expression": "ISC"
+          }
+        ],
+        "purl": "pkg:npm/setprototypeof@1.2.0"
+      }
+    ]
+  }
